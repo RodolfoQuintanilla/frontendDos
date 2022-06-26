@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+   --White: hsl(0, 0%, 100%);
+   --Light-Grey: hsl(217, 12%, 63%);
+   --Medium-Grey: hsl(216, 12%, 54%);
+   --Dark-Blue: hsl(213, 19%, 18%);
+   --Very-Dark-Blue: hsl(216, 12%, 8%);
+   --Orange: hsl(25, 97%, 53%);
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Overpass', sans-serif;
+   font-size: 15px;
+   background-color: var(--Very-Dark-Blue);
+
+}
+
+.container {
+   height: 300px;
+   width: 350px;
+   background-color: var(--Dark-Blue);
+   padding: 20px;
+   border-radius: 25px;
+   margin-bottom: 10px;
+   margin: 0 auto;
+   margin-top: 20%;
+   margin-bottom: 10px;
+}
+
+figure {
+   width: 30px;
+   height: 30px;
+   background-color: var(--Medium-Grey);
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 15px;
+
+}
+
+h1 {
+   color: var(--White);
+   margin-bottom: 13px;
+}
+
+.container__parrafo,
+.container__numeros {
+   color: var(--Light-Grey);
+
+}
+
+.container__numeros {
+   margin: 15px 0 15px 0;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+span {
+   width: 40px;
+   height: 40px;
+   background-color: hsla(210, 11%, 14%, 0.382);
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+span:hover {
+   background-color: var(--Orange);
+   color: var(--White)
+}
+
+
+
+.btn {
+   height: 40px;
+   width: 100%;
+   border-radius: 20px;
+   background-color: var(--White);
+   color: var(--Orange);
+   border: none;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background-color: var(--Orange);
+   color: var(--White);
+}
+
+/* Autores ejercicios */
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+
+/* Fin Autores ejercicios */
